@@ -30,5 +30,10 @@ namespace TestingTheWaters
                 textBox1.Text = "Jabba The Hutt";
             }
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine("I have the high ground");
+        }
     }
 }
