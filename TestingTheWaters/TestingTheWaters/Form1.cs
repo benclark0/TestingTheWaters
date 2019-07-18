@@ -22,5 +22,10 @@ namespace TestingTheWaters
             Console.WriteLine(@"These are not the droids you are looking for");
             Console.WriteLine(@"I am very sleepy");
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine("I have the high ground");
+        }
     }
 }
