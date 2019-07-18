@@ -22,5 +22,10 @@ namespace TestingTheWaters
             Console.WriteLine(@"These are not the droids you are looking for");
             Console.WriteLine(@"I am very sleepy");
         }
+
+        private void BobaFett()
+        {
+            Console.WriteLine("This man is poison");
+        }
     }
 }
