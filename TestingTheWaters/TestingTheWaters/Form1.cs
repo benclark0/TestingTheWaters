@@ -40,5 +40,10 @@ namespace TestingTheWaters
         {
             Console.WriteLine("This man is poison");
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Console.WriteLine("Neb Fortuna");
+        }
     }
 }
