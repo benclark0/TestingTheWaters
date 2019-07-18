@@ -22,5 +22,13 @@ namespace TestingTheWaters
             Console.WriteLine(@"These are not the droids you are looking for");
             Console.WriteLine(@"I am very sleepy");
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if(textBox1.Text == "Luke Skywalker")
+            {
+                textBox1.Text = "Jabba The Hutt";
+            }
+        }
     }
 }
